@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Que es JavaScript?</title>
+    <link rel="icon" href="https://assets.materialup.com/uploads/959047ab-2e00-4032-aa4d-b8faf5798056/preview.png">
+    <link rel="stylesheet" href="./css/carrusel.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="header" id="inicio">
+        <img src="img/hamburgesa.svg" alt="" class="hamburger">
+        <nav class="menu-navegacion">
+            <a href="#">Inicio</a>
+            <a href="formulario.html">Formulario Animado</a>
+            <a href="./calculadora.html">Calculadora</a>
+            <a href="./carrusel.html">Carrusel</a>
+            <a href="#contacto">contacto</a>
+        </nav>
+        <section id="container-slider">	
+            <a href="javascript: fntExecuteSlide('prev');" class="arrowPrev"><i class="fas fa-chevron-circle-left"></i></a>
+            <a href="javascript: fntExecuteSlide('next');" class="arrowNext"><i class="fas fa-chevron-circle-right"></i></a>
+            <ul class="listslider">
+            <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+            <li><a itlist="itList_1" href="#"></a></li>
+            <li><a itlist="itList_2" href="#"></a></li>
+            <li><a itlist="itList_2" href="#"></a></li>
+            <li><a itlist="itList_2" href="#"></a></li>
+            <li><a itlist="itList_2" href="#"></a></li>
+            <li><a itlist="itList_2" href="#"></a></li>
+            <li><a itlist="itList_2" href="#"></a></li>
+            <li><a itlist="itList_2" href="#"></a></li>
+            <li><a itlist="itList_2" href="#"></a></li>
+            </ul>
+            <ul id="slider">
+            <li style="background-image: url(https://www.barakaldotiendaveterinaria.es/blog/wp-content/uploads/2019/01/siames.jpg); z-index:0; opacity: 1;">
+                <div class="content_slider" >
+                <div>
+                    <h2>Gato siamés</h2>
+                <p>Es una de las razas más elegantes entre los felinos. Son, además, uno de los más cariñosos, ya que disfrutan de los mimos y de pasar tiempo en familia. </p>
+            </div>
+                </div>
+            </li>
+            <li style="background-image: url('https://www.barakaldotiendaveterinaria.es/blog/wp-content/uploads/2019/01/angora.jpg'); ">
+                <div class="content_slider" >
+                <div>
+                    <h2>Gato de Angora</h2>
+                <p>Con su hermoso pelaje, estos gatos también son muy inteligentes e intuitivos. Los expertos aseguran que reconocen hasta diez palabras distintas entre órdenes y llamados de atención.</p>
+            </div>
+                </div>
+            </li>
+            <li style="background-image: url('https://www.barakaldotiendaveterinaria.es/blog/wp-content/uploads/2019/01/Gato-abisinio.jpg'); ">
+                <div class="content_slider" >
+                <div>
+                    <h2>Gato Abisinio</h2>
+                <p>Su aspecto salvaje enmascara una personalidad afable y cariñosa. Aunque es una de las razas más independientes son también muy sociables y activos.</p>
+            </div>
+                </div>
+            </li>
+            <li style="background-image: url('https://www.barakaldotiendaveterinaria.es/blog/wp-content/uploads/2019/01/gato-maine-koon.jpg'); ">
+                <div class="content_slider" >
+                <div>
+                    <h2>Gato Maine coon</h2>
+                <p>Esta raza puede pesar hasta 11 kilogramos. Por ello, este tipo de gatos necesitan hacer más deporte que las razas que tienen un tamaño mediano o pequeño, con el fin de que no padezcan de sobrepeso.</p>
+            </div>
+                </div>
+            </li>
+            <li style="background-image: url('https://www.barakaldotiendaveterinaria.es/blog/wp-content/uploads/2019/01/ragdoll.jpg'); ">
+                <div class="content_slider" >
+                <div>
+                    <h2>Gato ragdoll</h2>
+                <p>Tiene un peso aproximado de 9 kilogramos y aunque son bastante grandes también son dóciles y obedientes.</p>
+            </div>
+                </div>
+            </li>
+            <li style="background-image: url('https://www.barakaldotiendaveterinaria.es/blog/wp-content/uploads/2019/01/gato-siberiano.jpg'); ">
+                <div class="content_slider" >
+                <div>
+                    <h2>Gato siberiano</h2>
+                <p>Tienen una piel muy fuerte y un pelaje también muy potente. Pesa 9 kilogramos aproximadamente.</p>
+            </div>
+                </div>
+            </li>
+            <li style="background-image: url('https://www.barakaldotiendaveterinaria.es/blog/wp-content/uploads/2019/01/Gato-birmano.jpg'); ">
+                <div class="content_slider" >
+                <div>
+                    <h2>Gato birmano</h2>
+                <p>Son ideales si tienes niños en casa ya que les encanta jugar y divertirse. Son muy cariñosos e inteligentes.</p>
+            </div>
+                </div>
+            </li>
+            <li style="background-image: url('https://www.barakaldotiendaveterinaria.es/blog/wp-content/uploads/2019/01/gato-mau-egipcio.jpg'); ">
+                <div class="content_slider" >
+                <div>
+                    <h2>Gato mau egipcio</h2>
+                <p>Eran gatos muy sagrados en el Antiguo egipcio. El brillo de su pelo y su elegancia los coloca en lo más alto de este top.</p>
+            </div>
+                </div>
+            </li>
+            <li style="background-image: url('https://www.purina-latam.com/sites/g/files/auxxlc391/files/purina-razas-de-gatos-2.png'); ">
+                <div class="content_slider" >
+                <div>
+                    <h2>British Shorthair</h2>
+                <p>El British Shorthair es un gato juguetón, cariñoso, muy leal y un buen compañero para las personas. Puede tener pelo largo o corto, como su nombre lo indica, es un gato muy leal, afectuoso y que se toma muy en serio a todos los miembros de la familia.</p>
+            </div>
+                </div>
+            </li>
+            <li style="background-image: url('https://www.purina-latam.com/sites/g/files/auxxlc391/files/purina-razas-de-gatos-3.png'); ">
+                <div class="content_slider" >
+                <div>
+                    <h2>Gato Persa</h2>
+                <p>El gato persa es la raza de gato más popular que existe y son felinos muy tranquilos que son felices viviendo como gatos de interior porque no son tan activos. </p>
+            </div>
+                </div>
+            </li>
+    
+        </ul>
+        </section>
+    <footer id="contacto">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">Heidy Marita Arredondo Alcántara</h2>
+                <h2 class="brand">Nilton Balvin Meza</h2>
+                <p>Un buen desarrollador de software trabaja con disciplina y constancia desde el primer día.</p>
+            </div>
+            <div class="social-media">
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-instagram-alt'></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+
+
+    <script src="./js/menu.js"></script>
+    <script src="./js/lightbox.js"></script>
+    <script src="./js/carrusel.js"></script>
+
+</body>
+</html>
